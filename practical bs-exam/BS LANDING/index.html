@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <style>
+        .container {
+            height: 50px;
+        }
+
+        .banner {
+            height: 915px;
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("IMAGES/superhero-car-vintage-style.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .banner1 {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+            height: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(9, 9, 9, 0.703);
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .button1 {
+            width: 20%;
+            text-align: center;
+            transition: 0.7s;
+        }
+
+        p {
+            line-height: 45px;
+            font-size: 20px;
+            padding: 40px 0px;
+            text-align: justify;
+        }
+
+        .button1:hover {
+            background-color: rgb(248, 68, 68);
+            color: white;
+        }
+
+        h1 {
+            font-size: 55px;
+        }
+        @media (max-width:767px)
+        {
+            .banner1 {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 35%;
+            height: 500px;
+        }
+        .container {
+            height: auto;
+            position: relative;
+        }
+        }
+        @media (max-width:480px)
+        {
+            .banner {
+            height: 1200px;
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("IMAGES/superhero-car-vintage-style.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            height: auto;
+            position: relative;
+        }
+        .banner1 {
+            position: absolute;
+            transform: translate(-50%, -28%);
+            top: 57%;
+            left: 50%;
+
+        }
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark navbar1">
+        <div class="container">
+            <a href="" class="navbar-brand text-light fs-2">FERRARI</a>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#left">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav w-100 d-flex justify-content-end">
+                    <li class="nav-item ps-5"> <a href="" class="nav-link text-light text-center fs-5">HOME</a> </li>
+                    <li class="nav-item ps-5"> <a href="" class="nav-link text-center fs-5">ABOUT</a> </li>
+                    <li class="nav-item ps-5"> <a href="" class="nav-link text-center fs-5">CONTACT</a> </li>
+                    <li class="nav-item ps-5"> <a href="" class="nav-link text-center fs-5">HELP</a> </li>
+                    <li class="nav-item ps-5"> <a href="" class="nav-link text-center fs-5">MAP</a> </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="left">
+            <div class="offcanvas-header bg-dark ">
+             <h1 class="text-light fs-3">FERARRI</h1>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body bg-light">
+                <ul class="navbar-nav w-100 d-flex justify-content-end text-center">
+                    <li class="nav-item "> <a href="" class="nav-link text-center text-dark fs-5">HOME</a> </li>
+                    <li class="nav-item "> <a href="" class="nav-link text-dark text-center fs-5">ABOUT</a> </li>
+                    <li class="nav-item "> <a href="" class="nav-link text-dark text-center fs-5">CONTACT</a> </li>
+                    <li class="nav-item"> <a href="" class="nav-link text-dark text-center fs-5">HELP</a> </li>
+                    <li class="nav-item"> <a href="" class="nav-link text-dark text-center fs-5">MAP</a> </li>
+                </ul>
+            </div>
+    
+    
+        </div>
+    </div>
+    <div class="banner">
+
+
+        <div class="container banner1">
+            <h1 class="text-light text-center"> FERRARI KI SAVARI </h1>
+            <p class="text-light w-100 text-justify"> Racing is a great mania to which one must sacrifice everything,
+                without reticence, without hesitation.
+                The era of gentleman racing drivers is ended.
+                The fact is I don't drive just to get from A to B. ...
+                If you can dream it, you can do it.The era of gentleman racing drivers is ended.
+                The fact is I don't drive just to get from A to B. ...
+                If you can dream it, you can do it.The era of gentleman racing drivers is ended.
+                The fact is I don't drive just to get from A to B. ...
+                If you can dream it, you can do it.The era of gentleman racing drivers is ended.
+                The fact is I don't drive just to get from A to B. ...
+                If you can dream it, you can do it.</p>
+            <a href="" class="btn border border-rounded-3 text-light w-10 d-block m-auto button1"> FOLLOW US </a>
+        </div>
+    </div>
+</body>
+
+</html>
